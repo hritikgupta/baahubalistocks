@@ -24,34 +24,49 @@ Background details of companies would also be there. This would keep record of a
 All this data can be used by our user to aid to his investment decisions.
 
 ## Definitions
-User :	A customer, investor or analyst registered on our application.
-Stocks :    A stock of a particular company at an exchange
-Company :  A company, a commercial organization which may have one or more stocks trading in its name on the stock exchange.
-Favourite : A user will be able to ‘favourite’ certain stocks or companies for easy access to them.   
-Design Features
-Login
+**User** :	A customer, investor or analyst registered on our application.
+
+**Stocks** :    A stock of a particular company at an exchange
+
+**Company** :  A company, a commercial organization which may have one or more stocks trading in its name on the stock exchange.
+
+**Favourite** : A user will be able to ‘favourite’ certain stocks or companies for easy access to them. 
+
+## Design Features
+**Login**
 Users would be able to log in to our system using username and password.
-Stocks
+
+**Stocks**
 Stocks are the most important part. Stock prices will be stored in our database on which user can run query to get the max valued stock or the highest growing stock or the fastest growing stock which started within a specific time-frame given by the user.
-Company
+
+**Company**
 Any stock belongs to a company. A company may not be associated with a stock but all stocks shall certainly be associated with a company. User will be able to view details about a company as well as the stocks associated with it.
-Tags
+
+**Tags**
 User can tag their stocks based on the companies they hold in, to get an overview of the type of stock.
 
-## Bookmarks
+**Bookmarks**
 Users will be able to bookmark certain stocks that they can refer to in future.
-Target customer
+
+## Target customer
+
 People who have an eye for stock markets, be it analysts, investors, venture capitals, consultants or even enthusiasts.
 As of now no low cost or free service is available in the market which does such a wide variety of tasks and provide predictions from a chunk of stock market data. Most of such services are very expensive. 
+
 The platform will serve as a tool for users who are willing to invest in stock markets or are willing to get started with the same. 
 Implementation
+
 The solution will be implemented using Django Python framework with an underlying MySQL server database.
+
 UI would use Bootstrap and JQuery objects. Backend development would be in Python Django framework using an underlying MySQL server.
 Stock data would be fetched from the raw data available with the Alpha Vantage API and process it such that we can process our queries easily and efficiently. Data would be fetched and processed regularly and then stored in our local database.
+
 Data visualizations in the form of tables and graphs would be made possible using the python libraries. Data could be sorted in a form as per the user’s choice. 
+
 Company details will be fetched in real time from Wikipedia.
 Users will have the ability to “favorite” or in more formal terms, bookmark any stocks they find of interest which will later give them a quick access to them.
-Required Hardware
+
+## Required Hardware
 For the purpose of this project all the data will be stored on our personal computers. Because of the constraints of our PC, we will store minute by minute stock data for the last 7 days, hour by hour stock data for the last one year and day wise data for the last 10 years.
 
 ## Performance Requirements:
