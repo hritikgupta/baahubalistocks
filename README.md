@@ -74,6 +74,7 @@ On an PC which runs on an Intel Core i5 processor with 8 GB RAM, the maximum res
 
 ## ER Diagram :
 An initial non normalized ER diagram for this project is attached here: 
+![](https://github.com/ashking13th/baahubalistocks/blob/basic-structure/images/er-diag.PNG)
 
 ## Conclusion
 BaahubaliStocks.com would be handy tool for thousands of people including investors and stock market enthusiasts to serve their purpose without spending a single buck, developed using Django, MySQL, HTML5, Bootstrap and JQuery on top of Alpha Vantage API and Python libraries. 
