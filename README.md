@@ -13,9 +13,13 @@ Contributors:
 `sudo apt-get install python3-django`
 
 2 Download this repository
+
 3 Browse to the stocks directory in the terminal
+
 4 `$ python manage.py migrate`
+
 5 `$ python manage.py runserver`
+
 6 Go to `localhost:8080` in your browser
 
 ## Overview
