@@ -8,6 +8,16 @@ Contributors:
 2. [Akai9866](https://github.com/Akai9866)
 3. [hritikgupta](https://github.com/hritikgupta)
 
+## How to use
+1 Install Django
+`sudo apt-get install python3-django`
+
+2 Download this repository
+3 Browse to the stocks directory in the terminal
+4 `$ python manage.py migrate`
+5 `$ python manage.py runserver`
+6 Go to `localhost:8080` in your browser
+
 ## Overview
 Day trading in stocks is risky, more so if you are untrained. When it comes to investing in stocks, it is important that the investor is capable of conducting a thorough technical analysis of stock charts. Technical analysis is used to define the process of forecasting future price movements based on the past price movements within stock charts. It is with the help of technical analysis that investors are able to make financial decisions of buying, holding, or selling stocks. 
 
