@@ -37,7 +37,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'home.apps.HomeConfig'
+    'home.apps.HomeConfig',
+    'searchResults.apps.SearchresultsConfig',
+    'grapher.apps.GrapherConfig',
+    'top3.apps.Top3Config',
+    'result.apps.ResultConfig'
 ]
 
 MIDDLEWARE = [
@@ -74,10 +78,21 @@ WSGI_APPLICATION = 'stocks.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
 
-DATABASES = {
+'''DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    }
+}'''
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'test',
+        'USER': 'root', 
+        'PASSWORD': '',
+        'HOST': 'localhost',
+        'PORT': '3306',   #my port is 3306
     }
 }
 

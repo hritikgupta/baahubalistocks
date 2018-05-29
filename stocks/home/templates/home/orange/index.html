@@ -62,7 +62,7 @@
 	<nav class="fh5co-nav" role="navigation">
 		<div class="container">
 			<div class="row">
-				<div class="left-menu text-right menu-1">
+				<div class="left-menu text-left menu-1">
 					<ul>
 						<li><a href="work.html">Work</a></li>
 						<li><a href="about.html">About</a></li>
@@ -78,16 +78,16 @@
 					</ul>
 				</div>
 				<div class="logo text-center">
-					<div id="fh5co-logo"><a href="index.html">Something</a></div>
+					<div id="fh5co-logo"><a href="index.html">BaahubaliStocks.com</a></div>
 				</div>
-				<div class="right-menu text-left menu-1">
+				<div class="right-menu text-right menu-1">
 					<ul>
 						<li><a href="blog.html">Blog</a></li>
 						<li class="has-dropdown">
-							<a href="#">Tools</a>
+							<a href="#">Stock Data</a>
 							<ul class="dropdown">
-								<li><a href="#">Search</a></li>
-								<li><a href="#">Analyze</a></li>
+								<li><a href="search">Daily</a></li>
+								<li><a href="#">Monthly</a></li>
 							</ul>
 						</li>
 						<li><a href="contact.html">Contact</a></li>
@@ -109,10 +109,11 @@
 							<h1>BaahubaliStocks.com</h1>
 							<h2>Stocks Aapke, Analysis Hamari</a></h2>
 							<div class="row">
-								<form class="form-inline" id="fh5co-header-subscribe">
+								<form class="form-inline" id="fh5co-header-subscribe" method="POST" action="result/">
 									<div class="col-md-8 col-md-offset-2">
 										<div class="form-group">
-											<input type="text" class="form-control" id="email" placeholder="Search stocks, companies and more...">
+										 {% csrf_token %}
+											<input name="tag" type="text" class="form-control" id="email" placeholder="Search stocks, companies and more...">
 											<button type="submit" class="btn btn-default">Search</button>
 										</div>
 									</div>
