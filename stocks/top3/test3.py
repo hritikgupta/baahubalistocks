@@ -52,9 +52,11 @@ def graphOfChosenStockOverTime():
         
         print ("\nPredictions for upcoming 5 days for " + nam +":" )
         new_x = [143, 144, 145, 146, 147]
+        predictions = []
         for i in new_x:      
             predict = slope*i + intercept
-            print (predict)
+            predictions.append(predict)
+        return predictions
 
 if __name__ == '__main__':
     graphOfChosenStockOverTime()

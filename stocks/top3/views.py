@@ -6,8 +6,5 @@ import searchResults.process as sp
 # Create your views here.
 def index(request):
     template = loader.get_template('top3/company.html')
-    context = {
-        'allData': zip(allData, moreData, stockcode),
-    }
     #print(context)
-    return HttpResponse(template.render(context))
+    return HttpResponse(template.render())

@@ -1,0 +1,10 @@
+from django.urls import path
+
+from . import views
+
+urlpatterns = [
+    path('', views.index, name='results'),
+    path('gr', views.gr, name='gr')
+    #path('graphs/(?P<stockname>\w{0,50})/$', views.i2, name='graphs'),
+    #path('graphs/gp/(?P<stockcode>w{0,50})', views.gp, name='gp')
+]
