@@ -1,0 +1,27 @@
+\BOOKMARK [1][-]{section.0.1}{How to use}{}% 1
+\BOOKMARK [1][-]{section.0.2}{ Overview}{}% 2
+\BOOKMARK [1][-]{section.0.3}{Definitions}{}% 3
+\BOOKMARK [2][-]{subsection.0.3.1}{User}{section.0.3}% 4
+\BOOKMARK [2][-]{subsection.0.3.2}{Stocks}{section.0.3}% 5
+\BOOKMARK [2][-]{subsection.0.3.3}{Company}{section.0.3}% 6
+\BOOKMARK [2][-]{subsection.0.3.4}{Favourite}{section.0.3}% 7
+\BOOKMARK [1][-]{section.0.4}{Design Features}{}% 8
+\BOOKMARK [2][-]{subsection.0.4.1}{Login}{section.0.4}% 9
+\BOOKMARK [2][-]{subsection.0.4.2}{Stocks}{section.0.4}% 10
+\BOOKMARK [2][-]{subsection.0.4.3}{Company}{section.0.4}% 11
+\BOOKMARK [2][-]{subsection.0.4.4}{Tags}{section.0.4}% 12
+\BOOKMARK [2][-]{subsection.0.4.5}{Bookmarks}{section.0.4}% 13
+\BOOKMARK [1][-]{section.0.5}{Target customer}{}% 14
+\BOOKMARK [1][-]{section.0.6}{ Required Hardware}{}% 15
+\BOOKMARK [1][-]{section.0.7}{Performance Requirements}{}% 16
+\BOOKMARK [1][-]{section.0.8}{ ER Diagram}{}% 17
+\BOOKMARK [1][-]{section.0.9}{Salient Features}{}% 18
+\BOOKMARK [1][-]{section.0.10}{Performance Checks}{}% 19
+\BOOKMARK [2][-]{subsection.0.10.1}{Response time of API}{section.0.10}% 20
+\BOOKMARK [2][-]{subsection.0.10.2}{Time for query execution}{section.0.10}% 21
+\BOOKMARK [2][-]{subsection.0.10.3}{Time for loading graph}{section.0.10}% 22
+\BOOKMARK [2][-]{subsection.0.10.4}{API}{section.0.10}% 23
+\BOOKMARK [1][-]{section.0.11}{Amount of Data}{}% 24
+\BOOKMARK [1][-]{section.0.12}{Problems Faced}{}% 25
+\BOOKMARK [1][-]{section.0.13}{Future Scope}{}% 26
+\BOOKMARK [1][-]{section.0.14}{Conclusion}{}% 27
